@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const RowGroupContainer = styled.section`
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     font-size: 2rem;
 `;

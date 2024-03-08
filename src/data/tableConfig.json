@@ -1,0 +1,17 @@
+[
+    {
+        "firstAtomicNumber": 1,
+        "lastAtomicNumber": 2,
+        "configuration": [1, 1]
+    },
+    {
+        "firstAtomicNumber": 3,
+        "lastAtomicNumber": 10,
+        "configuration": [2, 6]
+    },
+    {
+        "firstAtomicNumber": 11,
+        "lastAtomicNumber": 18,
+        "configuration": [2, 6]
+    }
+]
