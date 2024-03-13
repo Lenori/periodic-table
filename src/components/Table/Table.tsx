@@ -1,13 +1,13 @@
 import React from 'react';
 
-import tableConfig from '../../data/tableConfig.json';
-import tableElementsData from '../../data/tableElements.json';
+import tableConfig from 'data/tableConfig.json';
+import tableElementsData from 'data/tableElements.json';
 
 import RowGroup from './components/RowGroup/RowGroup';
 
 import * as S from './Table.styles';
 
-import type { PeriodicTableConfig } from '../../types/config.types';
+import type { PeriodicTableConfig } from 'types/config.types';
 
 export default function Table() {
     return (

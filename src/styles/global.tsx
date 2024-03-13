@@ -5,11 +5,12 @@ export default createGlobalStyle`
         outline: 0;
     }
     
-    :root{        
-        --failure: #E52e54;
-        --success: #40AA60;
+    :root{
         --dark-grey: #333333;
         --light-grey: #999999;
+        --white: #FFFFFF;
+
+        --nonmetal: #2a4165;
     }
 
     html {

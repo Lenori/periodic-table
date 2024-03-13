@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { ElementContainer } from 'components/Element/Element.styles';
 import { RowGroupContainer } from './components/RowGroup/RowGroup.styles';
 
 export const TableContainer = styled.section`
@@ -16,8 +17,19 @@ export const RowContainer = styled.section`
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 0.1rem;
+
+    ${RowGroupContainer}:first-of-type {
+        ${ElementContainer} {
+            margin-right: 0.1rem;
+        }
+    }
 
     ${RowGroupContainer}:last-of-type {
         justify-content: flex-end;
+
+        ${ElementContainer} {
+            margin-left: 0.1rem;
+        }
     }
 `;
