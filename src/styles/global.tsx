@@ -11,10 +11,19 @@ export default createGlobalStyle`
         --white: #FFFFFF;
 
         --nonmetal: #2a4165;
+        --noble-gas: #623842;
+        --alkali-metal: #244d57;
+        --alkaline-earth-metal:#622e39;
+        --metalloid: #523e1b;
+        --metal: #2f4d47;
+        --transition-metal: #433c65;
+        --lanthanoid: #004a77;
+        --actinoid: #613b28;
+        --unknown: #46474c;
     }
 
     html {
-        font-size: 62.5%;
+        font-size: 10px;
     }
 
     body {

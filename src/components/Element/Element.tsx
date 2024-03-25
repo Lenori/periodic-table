@@ -6,7 +6,7 @@ import type { ElementPropTypes } from './Element.types';
 
 export default function Element({ element }: ElementPropTypes) {
     return (
-        <S.ElementContainer>
+        <S.ElementContainer groupBlock={element.groupBlock}>
             <S.ElementAtomicNumber>
                 {element.atomicNumber}
             </S.ElementAtomicNumber>

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const ElementContainer = styled.section`
+import groupBlockToCssVar from 'utils/groupBlockToCssVar';
+
+export const ElementContainer = styled.section<{ groupBlock: string }>`
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -9,7 +11,7 @@ export const ElementContainer = styled.section`
     height: 5rem;
     font-size: 2rem;
     color: var(--white);
-    background-color: var(--nonmetal);
+    background-color: var(${(props) => groupBlockToCssVar(props.groupBlock)});
     padding: 0.5rem;
     border-radius: 0.5rem;
 `;
