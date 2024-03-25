@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Alkali metals",
+        "group": "Alkali metal"
+    },
+    {
+        "id": 2,
+        "name": "Alkaline earth metals",
+        "group": "Alkaline earth metal"
+    },
+    {
+        "id": 3,
+        "name": "Transition metals",
+        "group": "Transition metal"
+    },
+    {
+        "id": 4,
+        "name": "Post-transition metals",
+        "group": "Metal"
+    },
+    {
+        "id": 5,
+        "name": "Metalloids",
+        "group": "Metalloid"
+    },
+    {
+        "id": 6,
+        "name": "Reactive non-metals",
+        "group": "Nonmetal"
+    },
+    {
+        "id": 7,
+        "name": "Noble gases",
+        "group": "Noble gas"
+    },
+    {
+        "id": 8,
+        "name": "Lanthanides",
+        "group": "Lanthanoid"
+    },
+    {
+        "id": 9,
+        "name": "Actinides",
+        "group": "Actinoid"
+    },
+    {
+        "id": 10,
+        "name": "Unknown properties",
+        "group": "Unknown"
+    }
+
+]
