@@ -4,7 +4,9 @@ export default css`
     --dark-grey: #333333;
     --light-grey: #999999;
     --white: #ffffff;
+
     --background-blue: #282734;
+    --light-blue: #9391a6;
 
     --nonmetal: #2762bc;
     --noble-gas: #9f27c4;

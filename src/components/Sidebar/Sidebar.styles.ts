@@ -15,11 +15,17 @@ export const SidebarContainer = styled.section`
 
 export const SidebarHeader = styled.section`
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
 `;
 
 export const SidebarHeaderInfo = styled.section`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: var(--spacing-s);
+
+    span {
+        font-size: 1.4rem;
+        color: var(--light-blue);
+    }
 `;

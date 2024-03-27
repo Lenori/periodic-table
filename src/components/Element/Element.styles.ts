@@ -8,6 +8,7 @@ interface ElementProps {
 }
 
 export const ElementContainer = styled.section<ElementProps>`
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: flex-start;
