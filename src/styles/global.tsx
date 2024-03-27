@@ -1,26 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
+import colors from './colors.styles';
+import spacing from './spacing.styles';
+
 export default createGlobalStyle`
     *:focus {
         outline: 0;
     }
     
-    :root{
-        --dark-grey: #333333;
-        --light-grey: #999999;
-        --white: #FFFFFF;
-        --background-blue: #282734;
-
-        --nonmetal: #2762bc;
-        --noble-gas: #9f27c4;
-        --alkali-metal: #267f94;
-        --alkaline-earth-metal:#d3294d;
-        --metalloid: #c98206;
-        --metal: #1e836e;
-        --transition-metal: #26bb29;
-        --lanthanoid: #c8af1a;
-        --actinoid: #ac5a31;
-        --unknown: #404142;
+    :root {
+        ${colors}
+        ${spacing}
     }
 
     html {
@@ -32,7 +22,7 @@ export default createGlobalStyle`
         background-color: var(--background-blue);
         border: none;
         background-repeat: no-repeat;
-
+        margin: 0;
         color: var(--dark-grey);
     }
 

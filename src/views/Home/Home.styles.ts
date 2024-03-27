@@ -1,9 +1,16 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const MainContainer = styled.section`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 100%;
     font-size: 2rem;
+    padding: var(--spacing-m);
+`;
+
+export const ContentContainer = styled.section`
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
 `;

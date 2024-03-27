@@ -1,8 +1,13 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import groupBlockToCssVar from 'utils/groupBlockToCssVar';
 
-export const ElementContainer = styled.section<{ groupBlock: string }>`
+interface ElementProps {
+    groupBlock: string;
+    large?: boolean;
+}
+
+export const ElementContainer = styled.section<ElementProps>`
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -14,14 +19,34 @@ export const ElementContainer = styled.section<{ groupBlock: string }>`
     background-color: var(${(props) => groupBlockToCssVar(props.groupBlock)});
     padding: 0.5rem;
     border-radius: 0.5rem;
+
+    ${(props) =>
+        props.large &&
+        css`
+            width: 7rem;
+            height: 7rem;
+
+            p {
+                font-size: 1rem;
+            }
+
+            ${ElementSymbol} {
+                font-size: 3rem;
+                margin: 0.5rem 0;
+            }
+        `}
 `;
 
-export const ElementAtomicNumber = styled.p`
-    margin: 0;
+export const ElementAtomicHeader = styled.section`
     font-size: 0.9rem;
     width: 100%;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
+
+    p {
+        margin: 0;
+    }
 `;
 
 export const ElementSymbol = styled.p`

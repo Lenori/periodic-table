@@ -1,6 +1,5 @@
 import type { PeriodicTableElement } from 'types/elements.types';
 
-export interface ElementPropTypes {
+export interface SidebarPropTypes {
     element: PeriodicTableElement;
-    large?: boolean;
 }

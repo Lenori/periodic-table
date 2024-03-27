@@ -5,6 +5,6 @@ export const GroupSelectorContainer = styled.section`
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 1000px;
-    margin-top: 5rem;
+    width: 100rem;
+    margin-top: var(--spacing-l);
 `;
