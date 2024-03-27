@@ -20,6 +20,11 @@ export const ElementContainer = styled.section<ElementProps>`
     background-color: var(${(props) => groupBlockToCssVar(props.groupBlock)});
     padding: 0.5rem;
     border-radius: 0.5rem;
+    transition: filter 0.3s;
+
+    &:hover {
+        filter: brightness(80%);
+    }
 
     ${(props) =>
         props.large &&
