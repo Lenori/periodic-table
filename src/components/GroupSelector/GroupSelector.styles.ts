@@ -6,5 +6,5 @@ export const GroupSelectorContainer = styled.section`
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 1000px;
-    margin-top: 3rem;
+    margin-top: 5rem;
 `;

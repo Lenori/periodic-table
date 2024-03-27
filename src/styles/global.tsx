@@ -9,17 +9,18 @@ export default createGlobalStyle`
         --dark-grey: #333333;
         --light-grey: #999999;
         --white: #FFFFFF;
+        --background-blue: #282734;
 
-        --nonmetal: #2a4165;
-        --noble-gas: #623842;
-        --alkali-metal: #244d57;
-        --alkaline-earth-metal:#622e39;
-        --metalloid: #523e1b;
-        --metal: #2f4d47;
-        --transition-metal: #433c65;
-        --lanthanoid: #004a77;
-        --actinoid: #613b28;
-        --unknown: #46474c;
+        --nonmetal: #2762bc;
+        --noble-gas: #9f27c4;
+        --alkali-metal: #267f94;
+        --alkaline-earth-metal:#d3294d;
+        --metalloid: #c98206;
+        --metal: #1e836e;
+        --transition-metal: #26bb29;
+        --lanthanoid: #c8af1a;
+        --actinoid: #ac5a31;
+        --unknown: #404142;
     }
 
     html {
@@ -28,7 +29,7 @@ export default createGlobalStyle`
 
     body {
         font-family: 'Ubuntu', sans-serif;
-        background-color: #F3F5F8;
+        background-color: var(--background-blue);
         border: none;
         background-repeat: no-repeat;
 
